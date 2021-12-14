@@ -17,5 +17,5 @@ func (n *NullDepartment) GetNumberOfProfessors() int {
 }
 
 func (n *NullDepartment) GetName() string {
-	return "no name"
+	return "Null Department"
 }
