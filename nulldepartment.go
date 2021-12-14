@@ -5,11 +5,8 @@ type NullDepartment struct {
 	NumberofProfessors int
 }
 
-func getNullDepartment(Name string, NumberOfProf int) *NullDepartment {
-	return &NullDepartment{
-		Name:               Name,
-		NumberofProfessors: NumberOfProf,
-	}
+func getNullDepartment() *NullDepartment {
+	return &NullDepartment{}
 }
 
 func (n *NullDepartment) GetNumberOfProfessors() int {
