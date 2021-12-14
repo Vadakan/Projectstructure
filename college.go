@@ -23,5 +23,5 @@ func (c *college) getDepartment(name string) Department {
 			return department
 		}
 	}
-	return &NullDepartment{}
+	return getNullDepartment()
 }
