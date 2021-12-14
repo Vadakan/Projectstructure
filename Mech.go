@@ -11,3 +11,11 @@ func getMech(NumberOfProfessors int, Name string) *Mech {
 		Name:               Name,
 	}
 }
+
+func (M *Mech) GetNumberOfProfessors() int {
+	return M.NumberOfProfessors
+}
+
+func (M *Mech) GetName() string {
+	return M.Name
+}
